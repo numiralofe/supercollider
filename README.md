@@ -12,6 +12,6 @@ It includes:
 * some projects, applications and tools I made in the past or I'm still working on
 * lots of code snippets, tests and examples
 
-some code made and some snips retrieved from the (on those cases i normally include the credits/links about the author).
+some code was made by me and other snips are retrieved from the web (on those cases i normally include the credits/links about the author).
 
 Feel free to contact me, send me your comments, problems with my code and/or corrections/improvements.
