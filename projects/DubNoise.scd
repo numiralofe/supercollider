@@ -1,3 +1,4 @@
+// Dub with noise mixed
 
 a = { var src=PinkNoise.ar(); 16.do{src=BRF.ar(src,rrand(100,15000)!2)}; src }
 
