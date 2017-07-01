@@ -14,3 +14,6 @@ It includes:
 some code was made by me and other snips are retrieved from the web (on those cases i normally include the credits/links about the author).
 
 Feel free to contact me, send me your comments, problems with my code and/or corrections/improvements.
+
+You can learn more about consul on hashicorp terraform project web site:
+http://supercollider.github.io/
