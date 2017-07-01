@@ -6,14 +6,6 @@ b = { var src=PinkNoise.ar(); var lfo = {arg rt; LFNoise1.ar(rt!2)}; 16.do{src=B
 
 c= {var src=PinkNoise.ar(); var lfo = {arg rt; LFPulse.ar(rt!2)}; 16.do{src=BRF.ar(src,rrand(100,15000)*(0.75+(lfo.(0.5.rand)*0.25)),lfo.(0.5.rand).range(0.05,1))}; src }
 
-SystemClock.sched(5, { ~myAPlayer = a.play });
-SystemClock.sched(10, { ~myBPlayer = b.play });
-SystemClock.sched(15, { ~myCPlayer = c.play });
-
-SystemClock.sched(15, { ~myAPlayer = a.free });
-SystemClock.sched(65, { ~myBPlayer = b.free });
-SystemClock.sched(75, { ~myCPlayer = c.free });
-
 (
 d = {
 	var a, b, c, d, n, e, f,  out;
@@ -47,6 +39,16 @@ d = {
 };
 )
 
-SystemClock.sched(5, { ~myTDlayer = d.play });
-SystemClock.sched(55, { ~myTDlayer = d.free });
+
+~myAPlayer = a.play
+~myBPlayer = b.play
+~myCPlayer = c.play
+~myTDlayer = d.play
+
+~myAPlayer = a.stop
+~myBPlayer = b.stop
+~myCPlayer = c.stop
+~myTDlayer = d.stop
+
+
 
