@@ -15,5 +15,5 @@ some code was made by me and other snips are retrieved from the web (on those ca
 
 Feel free to contact me, send me your comments, problems with my code and/or corrections/improvements.
 
-You can learn more about consul on hashicorp terraform project web site:
+You can learn more about supercollider on github project web site:
 http://supercollider.github.io/
